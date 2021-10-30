@@ -1,0 +1,12 @@
+10. cd /tmp
+11. pwd
+12. date
+13. cd /home
+14. pwd
+15. ls -i
+16. mkdir PRUEBA
+17. cd /Prueba 
+    mkdir dir1,dir2,dir3
+    cd dir1, mkdir dir11
+    cd dir3, mkdir dir31,dir32
+
