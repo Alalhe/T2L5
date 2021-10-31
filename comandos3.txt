@@ -1,0 +1,6 @@
+1. cat el_quijote.txt | grep Quijote
+2. grep -v Quijote el_quijote.txt
+3. grep -l Quijote el_quijote.txt y grep -c quijote.txt
+4. sed 's/Panza/Barriga/' el_quijote.txt
+5. sed 's/Panza/Barriga/g' el_quijote.txt
+6. 
