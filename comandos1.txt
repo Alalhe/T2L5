@@ -8,3 +8,29 @@
 8. ls -d/etc/ ^t* o ls /dev | grep -v 't'
 9. ls -R/usr
 10. cd/tmp mkdir PRUEBA
+10. cd /tmp
+11. pwd
+12. date
+13. cd /home
+14. pwd
+15. ls -i
+16. mkdir PRUEBA
+17. cd /PRUEBA	 
+    mkdir dir1
+    mkdir dir2
+    mkdir dir3
+    cd /dir1,mkdir dir11
+    cd ../, cd dir3, mkdir 311, mkdir 312
+18. sudo cp /etc/hostname mensaje.txt
+19. cp -r dir1 dir2 dir 3
+20. ls -r dir1 dir2 dir3 o ls -R PRUEBA
+1. cat el_quijote.txt | grep -c Quijote
+2. grep -ic Quijote el_quijote.txt
+3. grep -rc Quijote el_quijote.txt 
+4. grep -rl Quijote el_quijote.txt
+5. sed 's/Panza/Barriga/' el_quijote.txt
+6. sed 's/Panza/Barriga/g' el_quijote.txt
+7. head -c 4 el_quijote.txt
+8. head -c 4000 el_quijote.txt
+9. cat el_quijote.txt | awk 'NR >=14 && NR <=25'
+10. sort -rf el_quijote.txt 
