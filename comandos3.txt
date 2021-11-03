@@ -1,6 +1,10 @@
-1. cat el_quijote.txt | grep Quijote
-2. grep -v Quijote el_quijote.txt
-3. grep -l Quijote el_quijote.txt y grep -c quijote.txt
-4. sed 's/Panza/Barriga/' el_quijote.txt
-5. sed 's/Panza/Barriga/g' el_quijote.txt
-6. 
+1. cat el_quijote.txt | grep -c Quijote
+2. grep -ic Quijote el_quijote.txt
+3. grep -rc Quijote el_quijote.txt 
+4. grep -rl Quijote el_quijote.txt
+5. sed 's/Panza/Barriga/' el_quijote.txt
+6. sed 's/Panza/Barriga/g' el_quijote.txt
+7. head -c 4 el_quijote.txt
+8. head -c 4000 el_quijote.txt
+9. cat el_quijote.txt | awk 'NR >=14 && NR <=25'
+10. sort -rf el_quijote.txt 
